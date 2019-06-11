@@ -1,3 +1,5 @@
+An implementation of Conway's Game of Life created using React and made by following a FreeCodeCamp article / tutorial which can be found here: https://www.freecodecamp.org/news/create-gameoflife-with-react-in-one-hour-8e686a410174/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
