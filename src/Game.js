@@ -1,9 +1,10 @@
 import React from 'react';
 import './Game.css';
 
-const CELL_SIZE = 20;
-const WIDTH = 800;
-const HEIGHT = 600;
+
+const WIDTH = window.innerWidth / 2;
+const HEIGHT = window.innerHeight / 2;
+const CELL_SIZE = WIDTH / 45;
 
 class Game extends React.Component {
     constructor() {
