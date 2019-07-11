@@ -4,7 +4,7 @@ import './Game.css';
 
 const WIDTH = window.innerWidth / 2;
 const HEIGHT = window.innerHeight / 2;
-const CELL_SIZE = WIDTH / 45;
+const CELL_SIZE = ((WIDTH / 45) / (HEIGHT / 45));
 
 class Game extends React.Component {
     constructor() {
